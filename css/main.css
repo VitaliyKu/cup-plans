@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Pragati+Narrow:400,700');
+
+html,
+body{
+	margin: 0 auto;
+	font-size: 14px;
+	font-family: 'Pragati Narrow', sans-serif;
+	line-height: 1.5;
+	color: #414141;
+	background: white;
+	letter-spacing: 3px;
+}
+
+.fl-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	max-width: 1200px;
+	background: url(../img/Layer1.png) no-repeat fixed;
+	background-size: cover;
+	min-height: 100vh;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.fl-first-cup{
+	flex-basis: 30%;
+	align-self: center;
+	background: url(../img/BG.png) fixed center center no-repeat;
+	background-size: cover;
+	margin-left: 14px;
+	/*margin-top: -15px;*/
+}
+
+.fl-second-cup{
+	flex-basis: 30%;
+	align-self: center;
+	background: url(../img/BG2.png) fixed center center no-repeat;
+	background-size: cover;
+}
+
+.fl-third-cup{
+	flex-basis: 30%;
+	align-self: center;
+	background: url(../img/BG3.png) fixed center center no-repeat;
+	background-size: cover;
+	margin-right: 14px;
+}
+
+.fl-price{
+	font-family: 'Pragati Narrow';
+	font-size: 70px;
+	font-weight: 700;
+	color: #02995b;
+	padding-top: 15px;
+}
+
+.gold-price{
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.gold-name{
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+
+.gold-description{
+	padding-top: 15px;
+}
+
+.space-bottom{
+	margin-bottom: 25px;
+}
+
+img{
+	align-self: center;
+	/*width: 100%;*/
+	text-align: center;
+	margin-bottom: 20px;
+	/*margin-top: 15px;*/
+}
+
+.gold{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.wrapper{
+	text-align: center;
+}
+
+.cup-name{
+	font-size: 44px;
+}
+
+.cup-description{
+	font-size: 18px;
+}
+
+.not-gold{
+	padding-bottom: 35px;
+}
+
+p{
+	text-align: center;
+	margin: 0 auto;
+	/*margin-bottom: 38px;*/
+}
